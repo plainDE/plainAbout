@@ -1,0 +1,21 @@
+QWidget#about {
+    background-color: #373737;
+}
+
+QLabel {
+    color: #F0F0F0;
+}
+
+QPushButton {
+    color: #F0F0F0;
+    background-color: #373737;
+}
+
+QTextEdit {
+    color: #F0F0F0;
+    background-color: #545454;
+}
+
+QTextEdit:link {
+    color: #FF0000;
+}

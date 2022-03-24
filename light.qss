@@ -1,0 +1,11 @@
+QWidget#about {
+    background-color: #F0F0F0;
+}
+
+QLabel {
+    color: #000000;
+}
+
+QPushButton {
+    color: #000000;
+}
