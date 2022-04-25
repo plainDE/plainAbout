@@ -29,7 +29,7 @@ about::about(QWidget *parent)
     ui->setupUi(this);
 
     this->setWindowTitle("About plainDE");
-    ui->versionLabel->setText("0.0.3");
+    ui->versionLabel->setText("0.0.3a");
 
     readConfig();
 
