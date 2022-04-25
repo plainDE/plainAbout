@@ -44,8 +44,6 @@ about::about(QWidget *parent)
     stylesheetReader.open(QIODevice::ReadOnly | QIODevice::Text);
     QTextStream styleSheet(&stylesheetReader);
     this->setStyleSheet(styleSheet.readAll());
-
-
 }
 
 about::~about()
