@@ -1,21 +1,12 @@
 QWidget#about {
-    background-color: #373737;
+    background-color: qlineargradient(spread:pad, x1:0.523, y1:0.568182, x2:0.517, y2:1, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(17, 17, 17, 255));
 }
 
 QLabel {
-    color: #F0F0F0;
+    color: #f3f3f3;
 }
 
-QPushButton {
-    color: #F0F0F0;
-    background-color: #373737;
-}
-
-QTextEdit {
-    color: #F0F0F0;
-    background-color: #545454;
-}
-
-QTextEdit:link {
-    color: #FF0000;
+QPushButton, QTextEdit {
+    background-color: #262626;
+    color: #f3f3f3;
 }
