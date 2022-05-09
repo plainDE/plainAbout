@@ -83,7 +83,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="assets.qrc">:/assets/logo.png</pixmap>
+        <pixmap>:/assets/logo.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -104,10 +104,10 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;plainDE was brought to you by &lt;span style=&quot; font-weight:700;&quot;&gt;thm-unix&lt;/span&gt; and &lt;span style=&quot; font-weight:700;&quot;&gt;ivabus&lt;/span&gt;.&lt;/p&gt;
-&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Found bug/want to help us/have an idea?&lt;br /&gt;Contact us at &lt;a href=&quot;mailto:segfault@plainde.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;segfault@plainde.org&lt;/span&gt;&lt;/a&gt; or via GitHub Issues.&lt;/p&gt;
-&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://plainde.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://plainde.org/&lt;br /&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/plainde/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/plainde/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://github.com/thm-unix/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/thm-unix/&lt;br /&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/ivabus/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/ivabus/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Learn more about GNU General Public License v3...&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Found bug/want to help us/have an idea?&lt;br /&gt;Contact us at &lt;a href=&quot;mailto:segfault@plainde.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#378edf;&quot;&gt;segfault@plainde.org&lt;/span&gt;&lt;/a&gt; or via GitHub Issues.&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://plainde.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#378edf;&quot;&gt;https://plainde.org/&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://plainde.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/plainde/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#378edf;&quot;&gt;https://github.com/plainde/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://github.com/thm-unix/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#378edf;&quot;&gt;https://github.com/thm-unix/&lt;br /&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/ivabus/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#378edf;&quot;&gt;https://github.com/ivabus/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#378edf;&quot;&gt;Learn more about GNU General Public License v3...&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2022&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="textInteractionFlags">
@@ -141,9 +141,7 @@ hr { height: 1px; border-width: 0; }
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="assets.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>okPushButton</sender>

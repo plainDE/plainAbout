@@ -29,17 +29,14 @@ about::about(QWidget *parent)
     ui->setupUi(this);
 
     this->setWindowTitle("About plainDE");
-    ui->versionLabel->setText("0.1.2a");
+    ui->versionLabel->setText("0.1.3");
+
+    ui->logoLabel->setPixmap(QPixmap("/usr/share/plainDE/menuIcon.png"));
 
     readConfig();
 
-    QString stylesheetPath;
-    if (config["theme"].toString() == "light") {
-        stylesheetPath = ":/assets/light.qss";
-    }
-    else {
-        stylesheetPath = ":/assets/dark.qss";
-    }
+    QString stylesheetPath = "/usr/share/plainDE/styles/" + config["theme"].toString();
+
     QFile stylesheetReader(stylesheetPath);
     stylesheetReader.open(QIODevice::ReadOnly | QIODevice::Text);
     QTextStream styleSheet(&stylesheetReader);
