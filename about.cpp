@@ -5,7 +5,7 @@
 
 #include "about.h"
 #include "ui_about.h"
-
+#include "version.cpp"
 
 QJsonObject config;
 
@@ -29,7 +29,7 @@ about::about(QWidget *parent)
     ui->setupUi(this);
 
     this->setWindowTitle("About plainDE");
-    ui->versionLabel->setText("0.1.3");
+    ui->versionLabel->setText(version());
 
     ui->logoLabel->setPixmap(QPixmap("/usr/share/plainDE/menuIcon.png"));
 
