@@ -10,7 +10,8 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    about.cpp
+    about.cpp \
+    version.cpp
 
 HEADERS += \
     about.h
