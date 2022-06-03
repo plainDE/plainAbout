@@ -1,4 +1,4 @@
 # plainAbout
 
 About plainDE window. <br><br>
-<img src="scr_about.png" width=400 height=266>
+<img src="about-scr-0.1.4.png" width=400 height=266>
