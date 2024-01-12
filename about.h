@@ -11,7 +11,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QTextEdit>
-#include <QCoreApplication>
+#include <QApplication>
 #include <QScreen>
 #include <QGraphicsBlurEffect>
 #include <QGraphicsScene>
