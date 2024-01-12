@@ -101,8 +101,10 @@ void About::setComponent() {
 }
 
 void About::setWindowGeometry() {
+    QScreen* primaryScreen = qApp->primaryScreen();
+    QRect screenGeometry = primaryScreen->geometry();
     int width = 550, height = 360;
-    int x = 500, y = 500;
+    int x = (screenGeometry.width() - width) / 2, y = (screenGeometry.height() - height) / 2;
     if (mArguments.contains("-x")) {
         int xIndex = mArguments.indexOf("-x") + 1;
         x = mArguments.at(xIndex).toInt();
