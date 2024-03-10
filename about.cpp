@@ -27,6 +27,7 @@ void About::setAppearance() {
 
 void About::setUI() {
     this->setWindowTitle("plainAbout");
+    this->setObjectName("about");
 
     QVBoxLayout* layout = new QVBoxLayout(this);
 
